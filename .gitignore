@@ -1,0 +1,11 @@
+# Obsidian: keep the shared vault config, ignore per-machine UI state & caches
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.trash/
+*.tmp
