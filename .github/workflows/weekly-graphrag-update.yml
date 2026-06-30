@@ -1,0 +1,53 @@
+name: Weekly GraphRAG paper update
+
+# Runs every Monday and adds OKF notes for new GraphRAG-related arXiv papers.
+# Requires repo secret ANTHROPIC_API_KEY. Optional repo variable ANTHROPIC_MODEL.
+on:
+  schedule:
+    # 00:13 UTC every Monday = 09:13 Asia/Seoul (KST). Off-minute on purpose.
+    - cron: "13 0 * * 1"
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: "How many days back to search arXiv"
+        default: "8"
+      max_new:
+        description: "Max new notes to add this run"
+        default: "6"
+      dry_run:
+        description: "Only list candidates, write nothing (true/false)"
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-graphrag-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout wiki branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install --quiet anthropic pyyaml
+
+      - name: Run weekly update
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-sonnet-4-6' }}
+          LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '8' }}
+          MAX_NEW: ${{ github.event.inputs.max_new || '6' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          WEEKLY_PUSH: "1"
+        run: python scripts/weekly_update.py

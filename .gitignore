@@ -9,3 +9,7 @@
 Thumbs.db
 .trash/
 *.tmp
+
+# Python
+__pycache__/
+*.pyc

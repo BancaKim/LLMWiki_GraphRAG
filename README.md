@@ -89,6 +89,18 @@ timestamp: 2026-06-29
 
 ---
 
+## 🔄 자동 업데이트 (매주 월요일)
+
+매주 월요일, GraphRAG 관련 **최신 arXiv 논문**을 자동으로 찾아 새 OKF 노트로 추가하는 루틴이 포함되어 있습니다. GitHub Actions에서 동작하며(`.github/workflows/weekly-graphrag-update.yml`), 다음 `git pull` 때 Obsidian에 그대로 반영됩니다.
+
+- **최초 설정:** 레포 `Settings → Secrets and variables → Actions` 에 `ANTHROPIC_API_KEY` 시크릿 1개만 추가하면 됩니다.
+- **바로 실행:** `Actions → Weekly GraphRAG paper update → Run workflow` (`dry_run=true` 로 후보만 미리보기 가능).
+- 자세한 동작·튜닝·API 키 없이 쓰는 대안: **[automation/weekly-paper-update.md](automation/weekly-paper-update.md)**
+
+서지정보(저자·연도·arXiv ID)는 arXiv 메타데이터로 코드가 직접 채우므로 인용 오류 위험이 낮고, 추가된 논문은 [log.md](log.md)에 날짜별로 기록됩니다.
+
+---
+
 ## 유의사항
 
 - 각 노트의 본문은 1차 자료(주로 arXiv 논문)를 바탕으로 작성한 **원작 한국어 요약**이며, 저자·연도·arXiv ID 등 서지 정보는 검증을 거쳤습니다. 다만 자동 생성 과정의 특성상 오류가 있을 수 있으니 중요한 사실은 원문으로 확인하세요.
