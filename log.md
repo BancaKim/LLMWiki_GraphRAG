@@ -2,6 +2,19 @@
 
 GraphRAG 지식 위키의 시간순 변경 기록입니다.
 
+## 2026-07-23 — 주간 자동 업데이트 (최신 논문 반영)
+
+최신 GraphRAG 논문 8건을 반영해 노트를 57 → 65개로 확장했습니다:
+
+- `methods/gfm-rag.md` — GFM-RAG (arXiv:2502.01113)
+- `methods/hypergraphrag.md` — HyperGraphRAG (arXiv:2503.21322)
+- `methods/noderag.md` — NodeRAG (arXiv:2504.11544)
+- `methods/kag.md` — KAG (Knowledge Augmented Generation) (arXiv:2409.13731)
+- `methods/pathrag.md` — PathRAG (arXiv:2502.14902)
+- `methods/minirag.md` — MiniRAG (arXiv:2501.06713)
+- `methods/youtu-graphrag.md` — Youtu-GraphRAG (arXiv:2508.19855)
+- `benchmarks/graphrag-bench.md` — GraphRAG-Bench (arXiv:2506.02404)
+
 ## 2026-06-29 — 최초 번들 (OKF v0.1)
 
 6개 섹션에 걸쳐 **57개의 노트**로 위키를 생성했습니다:
