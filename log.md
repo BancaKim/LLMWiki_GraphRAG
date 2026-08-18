@@ -2,6 +2,12 @@
 
 GraphRAG 지식 위키의 시간순 변경 기록입니다.
 
+## 2026-08-18 — Deep GraphRAG 추가
+
+- `methods/deep-graphrag.md` — Deep GraphRAG (arXiv:2601.11144) — 전역·지역 검색의 상충을 계층적 global-to-local 3단계 검색으로 절충하고, DW-GRPO 강화학습으로 1.5B 소형 모델이 지식 통합을 맡도록 한 기법.
+
+직전 갱신에서 누락된 논문으로, 표기가 `DeepGraphRAG`가 아닌 `Deep GraphRAG`(띄어쓰기)여서 검색에 걸리지 않았습니다. `local-and-global-search`·`drift-search`에서 역방향 링크를 연결했습니다.
+
 ## 2026-08-18 — 최신 논문 반영 (2025 하반기 ~ 2026)
 
 직전 갱신이 2025년 8월(arXiv 2508)까지만 다루고 있어, 이후 1년치 주요 연구를 반영했습니다. 노트 65 → 73개.

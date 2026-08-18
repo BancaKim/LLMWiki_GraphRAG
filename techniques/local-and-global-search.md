@@ -32,3 +32,4 @@ resource: https://arxiv.org/abs/2404.16130
 - [Hybrid Retrieval](hybrid-retrieval.md) — 그래프와 벡터 신호를 섞는 검색으로, 지역 검색의 컨텍스트 구성과 통한다.
 - [LazyGraphRAG](../methods/lazygraphrag.md) — 사전 요약 비용을 낮춰 전역 질의를 지연 처리하는 대안.
 - [GraphRAG (the paradigm)](../concepts/graph-rag.md) — 지역·전역 검색을 포괄하는 상위 패러다임.
+- [Deep GraphRAG](../methods/deep-graphrag.md) — 두 모드를 양자택일 대신 계층적 global-to-local 단계로 잇는 기법.

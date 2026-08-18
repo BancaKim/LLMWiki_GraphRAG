@@ -32,3 +32,4 @@ DRIFT Search는 [microsoft/graphrag](../tools/microsoft-graphrag-library.md) 라
 - [Query-Focused Summarization (QFS)](../concepts/query-focused-summarization.md) — 전역 측면이 다루는 요약 기반 질의 과제.
 - [Hybrid Retrieval](hybrid-retrieval.md) — 서로 다른 검색 방식을 결합한다는 점에서 맞닿은 기술.
 - [LazyGraphRAG](../methods/lazygraphrag.md) — 검색 시점에 비용을 조정하는 GraphRAG 계열의 또 다른 변형.
+- [Deep GraphRAG](../methods/deep-graphrag.md) — 지역·전역 결합을 3단계 계층 검색과 강화학습으로 확장한 후속 접근.

@@ -2,8 +2,9 @@
 
 Microsoft GraphRAG부터 경량·KG 추론 계열까지, 구체적인 GraphRAG 시스템과 이를 제안한 논문.
 
-이 섹션에는 30개의 노트가 있습니다.
+이 섹션에는 31개의 노트가 있습니다.
 
+- [Deep GraphRAG](deep-graphrag.md) — 전역 검색의 포괄성과 지역 검색의 효율성 사이의 상충을 계층적 global-to-local 3단계 검색으로 절충하고, DW-GRPO 강화학습으로 소형 LLM이 지식 통합을 담당하도록 한 GraphRAG 기법이다.
 - [G-Retriever](g-retriever.md) — 텍스트 속성을 가진 그래프에 대한 질의응답을 위해 GNN, LLM, RAG를 결합한 기법으로, Prize-Collecting Steiner Tree로 관련 부분그래프를 검색하고 소프트 프롬프팅으로 LLM에 주입한다.
 - [GFM-RAG](gfm-rag.md) — GFM-RAG는 대규모로 사전학습한 그래프 파운데이션 모델(GFM)을 검색기로 삼아 그래프 인덱스 위에서 질의-지식 관계를 추론하고, 파인튜닝 없이 미지의 데이터셋에 zero-shot으로 적용되는 최초의 GFM 기반 RAG 방법이다.
 - [GNN-RAG](gnn-rag.md) — GNN(그래프 신경망)을 지식 그래프 위의 검색기로, LLM을 답변 생성기로 결합한 KGQA 기법으로, GNN이 질문 개체에서 후보 답변으로 이어지는 추론 경로를 뽑아 LLM에게 전달한다.
