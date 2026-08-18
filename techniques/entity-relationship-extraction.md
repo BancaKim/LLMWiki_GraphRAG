@@ -32,3 +32,4 @@ resource: https://arxiv.org/abs/2404.16130
 - [Community Detection (Leiden)](community-detection.md) — 추출된 개체 그래프를 클러스터링하는 후속 단계.
 - [LangChain LLMGraphTransformer](../tools/langchain-graph.md) — LLM으로 텍스트에서 그래프를 추출하는 도구.
 - [LlamaIndex PropertyGraphIndex](../tools/llamaindex-property-graph.md) — 추출과 그래프 색인을 함께 제공하는 도구.
+- [AGRAG](../methods/agrag.md) — LLM 추출을 n-gram·TF-IDF 통계 방식으로 대체해 환각을 차단한 접근.

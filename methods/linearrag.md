@@ -44,6 +44,8 @@ Tri-Graph는 원본 구절, 엔터티, 그리고 이들을 잇는 의미 연결�
 - [Dense Retrieval / Vector Search](../concepts/dense-retrieval.md) — 의미 연결과 구절 회수의 기반이 되는 검색 방식이다.
 - [LogicRAG](logicrag.md) — 그래프 구축 비용 문제에 대해 '사전 구축 자체를 없애는' 반대 노선의 대안이다.
 - [When to use Graphs in RAG](../surveys/when-to-use-graphs-in-rag.md) — 이런 효율 개선이 실제로 이득이 되는 조건을 따진 분석이다.
+- [EA-GraphRAG](ea-graphrag.md) — 같은 연구 그룹이 질의 라우팅 쪽에서 비용을 줄인 상보적 접근이다.
+- [AGRAG](agrag.md) — 색인 단계의 LLM 의존을 통계 기반 추출로 걷어 낸 또 다른 노선이다.
 
 ## 참고문헌
 

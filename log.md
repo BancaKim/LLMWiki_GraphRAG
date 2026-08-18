@@ -2,6 +2,14 @@
 
 GraphRAG 지식 위키의 시간순 변경 기록입니다.
 
+## 2026-08-18 — AGRAG · EA-GraphRAG · Is GraphRAG Needed? 추가
+
+- `methods/agrag.md` — AGRAG (arXiv:2511.05549) — LLM 엔터티 추출을 n-gram·TF-IDF 통계 방식으로 대체하고, 검색을 MCMI(최소 비용 최대 영향) 부분 그래프 생성 문제로 정식화.
+- `methods/ea-graphrag.md` — EA-GraphRAG / "Use Graph When It Needs" (arXiv:2602.03578) — 질의 구문 복잡도를 점수화해 밀집 RAG와 그래프 검색으로 라우팅하고 경계 사례는 RRF로 융합.
+- `surveys/is-graphrag-needed.md` — Is GraphRAG Needed? (arXiv:2606.25656, GEM 2026 / ACL Anthology 2026.gem-main.40) — 표준·그래프·모듈형·에이전틱 RAG를 9가지 표준 시나리오로 구현해 비교하고, 토큰 19~53% 절감 컨텍스트 엔지니어링 제시 (AWS·Cisco).
+
+세 편 모두 '그래프가 정말 필요한가' 클러스터(`when-to-use-graphs-in-rag`·`ragsearch`·`logicrag`)와 양방향으로 연결했습니다.
+
 ## 2026-08-18 — Deep GraphRAG 추가
 
 - `methods/deep-graphrag.md` — Deep GraphRAG (arXiv:2601.11144) — 전역·지역 검색의 상충을 계층적 global-to-local 3단계 검색으로 절충하고, DW-GRPO 강화학습으로 1.5B 소형 모델이 지식 통합을 맡도록 한 기법.

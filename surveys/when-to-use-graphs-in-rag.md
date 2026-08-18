@@ -37,6 +37,8 @@ timestamp: 2026-08-18
 - [LightRAG](../methods/lightrag.md) — 경량 GraphRAG 계열 비교 대상.
 - [RAGSearch (Do We Still Need GraphRAG?)](../benchmarks/ragsearch.md) — 같은 질문을 에이전틱 검색 환경으로 확장한 후속 벤치마크.
 - [LogicRAG](../methods/logicrag.md) — 사전 구축 그래프 없이도 되는지를 방법론 쪽에서 되묻는 대안.
+- [Is GraphRAG Needed?](is-graphrag-needed.md) — 같은 질문을 9가지 실무 구성의 실증 비교로 다룬 연구.
+- [EA-GraphRAG](../methods/ea-graphrag.md) — "언제 그래프인가"에 질의별 라우팅으로 답한 시스템.
 
 ## 참고문헌
 - Xiang, Z., Wu, C., Zhang, Q., Chen, S., Hong, Z., Huang, X., & Su, J. (2025). *When to use Graphs in RAG: A Comprehensive Analysis for Graph Retrieval-Augmented Generation*. ICLR 2026. arXiv:2506.05690 — https://arxiv.org/abs/2506.05690

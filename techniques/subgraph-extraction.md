@@ -32,3 +32,4 @@ Subgraph Extraction(부분그래프 추출)은 [지식 그래프 (Knowledge Grap
 - [Knowledge Graph QA (KGQA)](../concepts/knowledge-graph-question-answering.md) — 부분그래프 추출이 주로 적용되는 과제 유형.
 - [Knowledge Graph](../concepts/knowledge-graph.md) — 추출의 대상이 되는 기반 그래프 구조.
 - [GraphRAG (the paradigm)](../concepts/graph-rag.md) — 부분그래프 추출을 검색 단계로 포함하는 상위 패러다임.
+- [AGRAG](../methods/agrag.md) — 부분그래프 선택을 최소 비용 최대 영향(MCMI) 최적화 문제로 정식화한 기법.

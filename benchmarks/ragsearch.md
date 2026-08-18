@@ -41,6 +41,8 @@ RAGSearch는 Fan et al.(2026)이 제안한 통합 벤치마크로, "에이전틱
 - [Large Language Model (LLM)](../concepts/large-language-model.md) — 백본을 고정해야 비교가 성립하는 통제 변수
 - [When to use Graphs in RAG](../surveys/when-to-use-graphs-in-rag.md) — "그래프가 언제 이득인가"를 먼저 물은 분석 논문
 - [LogicRAG](../methods/logicrag.md) — 사전 구축 그래프를 없애는 방향의 대안으로, 같은 질문에 방법론으로 답한다
+- [Is GraphRAG Needed?](../surveys/is-graphrag-needed.md) — 에이전틱 구성까지 포함해 같은 질문을 실증 비교한 연구
+- [EA-GraphRAG](../methods/ea-graphrag.md) — 질의별로 그래프 사용 여부를 가르는 적응적 대안
 
 ## 참고문헌
 
