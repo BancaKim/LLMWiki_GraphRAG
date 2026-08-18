@@ -2,6 +2,21 @@
 
 GraphRAG 지식 위키의 시간순 변경 기록입니다.
 
+## 2026-08-18 — 최신 논문 반영 (2025 하반기 ~ 2026)
+
+직전 갱신이 2025년 8월(arXiv 2508)까지만 다루고 있어, 이후 1년치 주요 연구를 반영했습니다. 노트 65 → 73개.
+
+- `methods/linearrag.md` — LinearRAG (arXiv:2510.10114, ICLR 2026)
+- `methods/graphsearch.md` — GraphSearch (arXiv:2509.22009, arXiv)
+- `methods/prograg.md` — ProgRAG (arXiv:2511.10240, arXiv)
+- `methods/logicrag.md` — LogicRAG (arXiv:2508.06105, AAAI 2026)
+- `methods/memgraphrag.md` — MemGraphRAG (arXiv:2606.00610, KDD 2026)
+- `benchmarks/ragsearch.md` — RAGSearch (Do We Still Need GraphRAG?) (arXiv:2604.09666, arXiv)
+- `surveys/when-to-use-graphs-in-rag.md` — When to use Graphs in RAG (arXiv:2506.05690, ICLR 2026)
+- `concepts/graphrag-security.md` — GraphRAG 보안과 지식 포이즈닝 (신규 주제 축; GraphRAG under Fire·LogicPoison·KEPo·ShadowMerge 정리)
+
+이번 갱신의 축: **효율화**(LinearRAG·LogicRAG), **에이전틱 검색**(GraphSearch·ProgRAG·MemGraphRAG), **'그래프가 정말 필요한가' 논쟁**(When to use Graphs in RAG·RAGSearch), **보안**(신규).
+
 ## 2026-07-23 — 주간 자동 업데이트 (최신 논문 반영)
 
 최신 GraphRAG 논문 8건을 반영해 노트를 57 → 65개로 확장했습니다:
