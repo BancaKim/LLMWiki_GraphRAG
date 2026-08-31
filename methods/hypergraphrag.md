@@ -43,6 +43,8 @@ HyperGraphRAG는 지식을 하이퍼그래프 구조로 표현하는 [GraphRAG](
 - [Multi-hop Reasoning (멀티홉 추론)](../concepts/multi-hop-reasoning.md) — 하이퍼엣지가 지원하려는 추론 유형
 - [Graph RAG: A Survey (Peng et al.)](../surveys/graph-rag-survey.md) — 그래프 RAG 지형 속 위치를 잡아 준다
 
+- [OG-RAG](og-rag.md) — 같은 하이퍼그래프 표현을 쓰되 도메인 온톨로지에 근거를 두는 대조적 접근.
+
 ## 참고문헌
 
 - Luo, H., E, H., Chen, G., Zheng, Y., Wu, X., Guo, Y., Lin, Q., Feng, Y., Kuang, Z., Song, M., Zhu, Y., & Tuan, L. A. (2025). *HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation*. NeurIPS 2025. arXiv:2503.21322 — https://arxiv.org/abs/2503.21322

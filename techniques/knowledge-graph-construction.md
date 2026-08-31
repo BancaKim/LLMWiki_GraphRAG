@@ -31,3 +31,5 @@ timestamp: 2026-06-29
 - [Community Detection (Leiden)](community-detection.md) — 구축된 그래프를 클러스터로 조직하는 후속 단계.
 - [Neo4j](../tools/neo4j.md) — 구축된 그래프를 저장·질의하는 그래프 데이터베이스.
 - [Text Chunking (청킹)](../concepts/text-chunking.md) — 추출에 앞서 입력을 분할하는 전처리 단계.
+- [온톨로지 기반·뉴로심볼릭 GraphRAG](../concepts/neurosymbolic-graphrag.md) — 온톨로지를 스키마로 삼아 구축을 제약하는 접근.
+- [OG-RAG](../methods/og-rag.md) — 도메인 온톨로지에 근거해 사실 묶음을 조직한 EMNLP 2025 사례.

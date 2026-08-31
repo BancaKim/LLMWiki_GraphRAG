@@ -2,6 +2,16 @@
 
 GraphRAG 지식 위키의 시간순 변경 기록입니다.
 
+## 2026-08-31 — 온톨로지 기반·뉴로심볼릭 GraphRAG 반영
+
+"온톨로지 기반 뉴로심볼릭 GraphRAG가 주요 학회에 억셉됐는가"를 조사해, 확인된 사례를 반영했습니다. 노트 77 → 80개.
+
+- `methods/og-rag.md` — OG-RAG (arXiv:2412.15235, **EMNLP 2025 Main**) — 도메인 온톨로지에 근거한 하이퍼그래프 표현, 질의별 최소 하이퍼엣지 집합을 최적화로 선택. 사실 재현율 +55%, 응답 정확성 +40%.
+- `methods/clause.md` — CLAUSE (arXiv:2509.21035, **ICLR 2026**) — 그래프 컨텍스트 구성을 예산 제약 순차 의사결정으로 정식화, 3개 에이전트를 LC-MAPPO로 공동 최적화.
+- `concepts/neurosymbolic-graphrag.md` — 온톨로지 기반·뉴로심볼릭 GraphRAG (신규 주제 축) — 두 축(온톨로지 근거 / 뉴로심볼릭 추론)과 학회 게재 현황, 남은 과제 정리.
+
+`graph-rag`·`knowledge-graph-construction`·`hypergraphrag`에서 역방향 링크를 연결했습니다.
+
 ## 2026-08-18 — AGRAG · EA-GraphRAG · Is GraphRAG Needed? 추가
 
 - `methods/agrag.md` — AGRAG (arXiv:2511.05549) — LLM 엔터티 추출을 n-gram·TF-IDF 통계 방식으로 대체하고, 검색을 MCMI(최소 비용 최대 영향) 부분 그래프 생성 문제로 정식화.

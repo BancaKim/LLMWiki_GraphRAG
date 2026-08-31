@@ -2,9 +2,10 @@
 
 Microsoft GraphRAG부터 경량·KG 추론 계열까지, 구체적인 GraphRAG 시스템과 이를 제안한 논문.
 
-이 섹션에는 33개의 노트가 있습니다.
+이 섹션에는 35개의 노트가 있습니다.
 
 - [AGRAG](agrag.md) — LLM 기반 엔터티 추출을 n-gram·TF-IDF 통계 방식으로 대체해 색인 단계의 환각을 없애고, 검색을 최소 비용 최대 영향(MCMI) 부분 그래프 생성 문제로 정식화한 그래프 RAG 기법이다.
+- [CLAUSE](clause.md) — 지식 그래프 위의 컨텍스트 구성을 순차적 의사결정 문제로 보고, 부분그래프 구축·경로 탐색·근거 선별을 담당하는 세 에이전트를 질의별 예산 제약 아래 강화학습으로 함께 최적화한 뉴로심볼릭 프레임워크다.
 - [Deep GraphRAG](deep-graphrag.md) — 전역 검색의 포괄성과 지역 검색의 효율성 사이의 상충을 계층적 global-to-local 3단계 검색으로 절충하고, DW-GRPO 강화학습으로 소형 LLM이 지식 통합을 담당하도록 한 GraphRAG 기법이다.
 - [EA-GraphRAG](ea-graphrag.md) — 질의의 구문적 복잡도를 점수화해 단순한 질의는 밀집 RAG로, 복잡한 질의는 그래프 검색으로 보내고 경계 사례는 융합하는 적응적 라우팅 프레임워크다.
 - [G-Retriever](g-retriever.md) — 텍스트 속성을 가진 그래프에 대한 질의응답을 위해 GNN, LLM, RAG를 결합한 기법으로, Prize-Collecting Steiner Tree로 관련 부분그래프를 검색하고 소프트 프롬프팅으로 LLM에 주입한다.
@@ -28,6 +29,7 @@ Microsoft GraphRAG부터 경량·KG 추론 계열까지, 구체적인 GraphRAG �
 - [Microsoft GraphRAG](microsoft-graphrag.md) — 텍스트 말뭉치에서 LLM으로 엔터티 지식 그래프를 구축하고 커뮤니티 단위로 사전 요약하여, 전역적 sensemaking 질의를 query-focused summarization 방식으로 답하는 그래프 기반 RAG 기법.
 - [MiniRAG](minirag.md) — 텍스트와 엔터티를 하나의 의미 인지 이질 그래프로 통합하고 경량 위상 강화 검색을 써서 소형 언어모델로도 잘 작동하도록 설계된 극도로 단순한 그래프 기반 RAG 방법.
 - [NodeRAG](noderag.md) — 엔터티·의미 단위·고수준 요약·이벤트를 서로 다른 유형의 노드로 구분하는 이질적 그래프 구조로 그래프 기반 RAG를 재설계한 그래프 중심 프레임워크.
+- [OG-RAG](og-rag.md) — 도메인 온톨로지에 근거해 문서를 하이퍼그래프로 표현하고, 질의마다 최소 하이퍼엣지 집합을 최적화로 골라 검색하는 온톨로지 기반 RAG 기법이다.
 - [PathRAG](pathrag.md) — 질의 관련 노드들 사이의 핵심 관계 경로에 집중하고 흐름 기반 가지치기로 잡음과 토큰 소비를 줄이는 그래프 기반 RAG 방법.
 - [ProgRAG](prograg.md) — 복잡한 질문을 하위 질문으로 분해하고 부분 추론 경로를 점진적으로 확장하면서 불확실성 인지 가지치기로 근거를 정제하는 환각 저항형 멀티홉 KGQA 프레임워크.
 - [RAPTOR](raptor.md) — 텍스트 청크를 재귀적으로 임베딩·클러스터링·요약하여 상향식 트리를 구축하고, 추론 시 서로 다른 추상화 수준에서 정보를 검색하는 트리 기반 검색 기법이다.

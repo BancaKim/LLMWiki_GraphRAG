@@ -2,7 +2,7 @@
 
 검색 증강 생성, 임베딩, 지식 그래프, 그래프 기반 추론의 토대가 되는 핵심 개념.
 
-이 섹션에는 12개의 노트가 있습니다.
+이 섹션에는 13개의 노트가 있습니다.
 
 - [Dense Retrieval / Vector Search](dense-retrieval.md) — 질의와 문서 청크를 동일한 벡터 공간에 임베딩한 뒤 근사 최근접 이웃(ANN) 검색으로 의미적으로 가까운 항목을 찾는 검색 방식으로, Karpukhin et al.(2020)의 DPR이 대표적이며 GraphRAG가 보강하는 기본 RAG 검색기다.
 - [GraphRAG (the paradigm)](graph-rag.md) — 평면 벡터 색인 대신 그래프 또는 지식 그래프를 검색 인덱스로 사용하는 RAG 패러다임으로, 인덱싱 단계에서 그래프를 구축하고 질의 단계에서 지역 질문과 전역 질문을 그래프 구조로 답한다.
@@ -15,6 +15,7 @@
 - [Retrieval-Augmented Generation (RAG)](retrieval-augmented-generation.md) — 외부 지식 소스에서 관련 정보를 검색해 LLM의 생성에 근거로 제공하는 패러다임으로, Lewis et al.(2020)이 NeurIPS에서 처음 정식화했으며 GraphRAG의 모태가 된다.
 - [Text Chunking (청킹)](text-chunking.md) — 긴 문서를 검색·색인의 기본 단위가 되도록 작은 텍스트 조각으로 분할하는 전처리로, 청크 크기와 중첩의 트레이드오프가 검색 품질을 좌우하며 GraphRAG에서는 청크가 그래프의 노드로 쓰이기도 한다.
 - [Text Embedding (텍스트 임베딩)](text-embedding.md) — 단어·문장·구절 등의 텍스트를 의미적 유사성이 거리로 반영되도록 고정 차원의 밀집 벡터로 사상한 표현으로, 유사도 검색과 그래프 노드·개체의 특징 벡터로 쓰인다.
+- [온톨로지 기반·뉴로심볼릭 GraphRAG](neurosymbolic-graphrag.md) — LLM이 자유롭게 뽑아낸 그래프 대신 온톨로지·논리 제약 같은 명시적 심볼릭 구조를 검색과 추론에 결합하는 GraphRAG 연구 흐름으로, EMNLP·ICLR 등 주요 학회에 관련 논문이 게재되고 있다.
 - [지식 그래프 (Knowledge Graph)](knowledge-graph.md) — 개체(entity)를 노드로, 개체 사이의 관계(relation)를 엣지로 표현하고 사실을 (주어, 술어, 목적어) 트리플로 저장하는 그래프 형태의 구조화된 지식 표현 방식이다.
 
 ---

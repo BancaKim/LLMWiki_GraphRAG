@@ -33,3 +33,4 @@ GraphRAG는 기업 문서·기술 매뉴얼·과학 문헌처럼 개체 간 관�
 - [Graph RAG: A Survey (Peng et al.)](../surveys/graph-rag-survey.md) — GraphRAG 방법론을 체계적으로 정리한 서베이
 - [When to use Graphs in RAG](../surveys/when-to-use-graphs-in-rag.md) — 그래프 구조가 실제로 이득이 되는 조건을 따진 분석
 - [GraphRAG 보안과 지식 포이즈닝](graphrag-security.md) — 그래프 색인이 새로 만들어 내는 공격면과 방어 과제
+- [온톨로지 기반·뉴로심볼릭 GraphRAG](neurosymbolic-graphrag.md) — 온톨로지·논리 제약을 결합해 그래프의 신뢰성을 높이는 흐름
